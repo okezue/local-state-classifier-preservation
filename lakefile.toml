@@ -1,0 +1,27 @@
+name = "lsc_test"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["LscTest"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.26.0"
+
+[[lean_lib]]
+name = "LscTest"
+
+[[lean_lib]]
+name = "LocalStateClassifier"
+
+[[lean_lib]]
+name = "LocalStateClassifier_MonoDense"
+
+[[lean_lib]]
+name = "LocalStateClassifierFull"
