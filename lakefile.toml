@@ -25,3 +25,6 @@ name = "LocalStateClassifier_MonoDense"
 
 [[lean_lib]]
 name = "LocalStateClassifierFull"
+
+[[lean_lib]]
+name = "LocalStateClassifierSpecialize2"
