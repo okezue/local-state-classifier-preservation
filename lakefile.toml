@@ -28,3 +28,6 @@ name = "LocalStateClassifierFull"
 
 [[lean_lib]]
 name = "LocalStateClassifierSpecialize2"
+
+[[lean_lib]]
+name = "LocalStateClassifierEquivalence"
